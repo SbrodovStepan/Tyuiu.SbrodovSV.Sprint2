@@ -43,7 +43,7 @@ namespace Tyuiu.SbrodovSV.Sprint2.Task2.V27.Lib
             result[6, 3] = true; result[3, 9] = true; result[4, 9] = true; result[6, 13] = true; result[7, 13] = true; result[8, 13] = true;
             result[9, 6] = true; result[10, 6] = true; result[11, 6] = true; result[11, 3] = true; result[11, 4] = true; result[11, 5] = true;
             result[13, 10] = true; result[13, 11] = true; result[13, 12] = true;
-            return result[x, y];
+            return result[y, x];
         }
     }
 }
