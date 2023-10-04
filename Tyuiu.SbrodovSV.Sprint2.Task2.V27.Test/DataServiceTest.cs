@@ -11,7 +11,7 @@ namespace Tyuiu.SbrodovSV.Sprint2.Task2.V27.Test
         public void TestMethod1()
         {
             DataService dataService = new DataService();
-            int x = 13, y = 12;
+            int x = 12, y = 13;
             bool res = dataService.CheckDotInShadedArea(x, y);
             Assert.IsTrue(res);
         }
