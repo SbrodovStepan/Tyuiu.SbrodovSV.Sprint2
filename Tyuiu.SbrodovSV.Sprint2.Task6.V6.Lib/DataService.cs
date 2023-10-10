@@ -11,7 +11,6 @@ namespace Tyuiu.SbrodovSV.Sprint2.Task6.V6.Lib
     {
         public string FindCardNameAndValue(int value1, int value2)
         {
-            string res;
             switch (value1)
             {
                 case 1:
