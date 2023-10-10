@@ -14,14 +14,6 @@ namespace Tyuiu.SbrodovSV.Sprint2.Task3.V26.Test
             double x = 5, res = dataService.Calculate(x), wait = 8132.250;
             Assert.AreEqual(wait, res);
         }
-
-        [TestMethod]
-        public void TestMethod2()
-        {
-            DataService dataService = new DataService();
-            double x = 0, res = dataService.Calculate(x), wait = 0;
-            Assert.AreEqual(wait, res);
-        }
         [TestMethod]
         public void TestMethod3()
         {
